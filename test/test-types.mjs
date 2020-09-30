@@ -9,7 +9,7 @@ import {
   TDouble,
   TTrue,
   TFalse
-} from 'node-osc/types';
+} from '#internal/types';
 
 test('Type: string', async (t) => {
   const str = new TString('come on fhqwhgads');
